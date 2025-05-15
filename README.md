@@ -34,3 +34,24 @@ The script deletes files considered duplicates or unclassified, so accidental da
 - The script supports macOS, Linux, and Windows, but behavior may vary due to differences in how these systems handle file creation dates.
 
 - Modify the folder paths and file extensions inside the script to match your setup and needs.
+
+---
+## 🤝 Collaboration
+
+I welcome contributions and ideas to make this script even better! Here’s how you can help:
+
+- **Report bugs or issues** by opening an issue in this repository.
+- **Suggest new features** or improvements via issues or discussions.
+- **Submit code changes** by forking the repo, making your changes, and opening a pull request (PR).
+- Look for issues labeled **good first issue** or **help wanted** if you want a place to start.
+- Please follow the existing code style and add comments where necessary.
+
+Feel free to reach out if you want help getting started or have questions!
+
+---
+
+If you'd like, I can also help you add new mechanics or anything you see it lacks.
+
+---
+
+*— PAMUGR*
