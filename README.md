@@ -1,4 +1,4 @@
-# 📂 File Organizer Script by PAMUGR
+# 📂 File Organizer Script by PAMUGR (Tutorial from Alex HYETT)
 
 This Python script automates the organization of files in your **Downloads** folder by sorting and moving them into categorized folders based on file extensions and creation dates.
 
