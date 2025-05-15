@@ -1,33 +1,36 @@
-# File Organizer Script by PAMUGR
-This Python script automates the organization of files in your Downloads folder by moving them into categorized folders based on their file extensions and creation dates.
+# 📂 File Organizer Script by PAMUGR
 
-Features
-Automatically sorts files into folders like Photos, Documents, Code, Text, Compressions, etc.
+This Python script automates the organization of files in your **Downloads** folder by sorting and moving them into categorized folders based on file extensions and creation dates.
 
-Organizes files by year and month based on file names or creation dates.
+---
 
-Creates necessary folders if they don’t exist.
+## 🚀 Features
 
-Detects duplicates by file size and removes duplicates from source.
+- Automatically sorts files into folders like **Photos**, **Documents**, **Code**, **Text**, **Compressions**, etc.
+- Organizes files by **Year** and **Month** based on filenames or file creation dates.
+- Creates target folders automatically if they don’t exist.
+- Detects duplicate files by comparing sizes and removes duplicates from the source.
+- Cleans up any leftover unclassified files and folders from the source directory.
 
-Cleans up unclassified files/folders left in the source folder.
+---
 
-How it Works
-Define the source folder (Downloads) and multiple target folders for file types.
+## 🛠 How It Works
 
-Specify file extensions grouped by category.
+1. Define your **source folder** (default: Downloads) and **target folders** for different file types.
+2. Specify file extensions grouped by category.
+3. Extract date info from the filename or fallback to file creation/modification date.
+4. Move files into folders structured as:
 
-For each file, extract the date from the filename or creation date.
 
-Move files into folders structured as:
-TargetFolder/Year/Month/Extension/
+5. Delete any files or folders remaining in the source folder that don’t match the known extensions.
 
-Delete files/folders in source folder that do not match the known extensions.
+---
 
-Important Notes
-Back up your files before running this script! It deletes files it considers duplicates or unclassified.
+## ⚠️ Important Notes
 
-The script assumes macOS/Linux or Windows but may behave differently on some systems due to how file creation dates are retrieved.
+- **Backup your files before running this script!**  
+The script deletes files considered duplicates or unclassified, so accidental data loss is possible.
 
-Modify folder paths and extensions in the script as needed.
+- The script supports macOS, Linux, and Windows, but behavior may vary due to differences in how these systems handle file creation dates.
 
+- Modify the folder paths and file extensions inside the script to match your setup and needs.
